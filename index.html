@@ -119,6 +119,8 @@ picture {
         margin-inline: auto;
         width: 100%;
         min-height: 100vh;
+        padding: 5rem;
+        padding-bottom: 0;
       }
       
       .container{
@@ -230,6 +232,9 @@ picture {
       }
 
       @media (max-width: 600px) {
+        main{
+          padding: 0;
+        }
 
         .container{
           grid-template-columns: repeat(1,1fr);
@@ -244,6 +249,9 @@ picture {
 
       }
       @media (max-width: 900px) and (min-width:600px){
+        main{
+          padding: 2rem;
+        }
 
         .container{
           grid-template-columns: repeat(3,1fr);
